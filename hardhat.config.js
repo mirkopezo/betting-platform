@@ -20,7 +20,9 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 module.exports = {
   solidity: "0.8.9",
   networks: {
-    url: process.env.MUMBAI_RPC,
-    accounts: [ process.env.PRIVATE_KEY ]
+    mumbai: {
+      url: process.env.MUMBAI_RPC,
+      accounts: [ process.env.PRIVATE_KEY ]
+    }
   }
 };
