@@ -1,15 +1,3 @@
-# Basic Sample Hardhat Project
+# Betting platform
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+Contract is deployed to Mumbai Testnet: 0x5ccd79838dF0fd49DC73962DA32d1e833db6D9EC (https://mumbai.polygonscan.com/address/0x5ccd79838dF0fd49DC73962DA32d1e833db6D9EC)
